@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+    <title>Leslie Steen</title>
+        
+    <style>
+    @font-face { font-family: Spectogram; src: url('Spectogram-Regular.otf'); }
+    
+    #name {
+        color: blue;
+        border: none;
+        font-family: 'Spectogram';
+        font-size: 30px;
+        background-color: white;
+        font-size: 50px;
+        position: fixed;
+        
+    } 
+
+    #contact {
+    position: fixed;
+    top:54px;
+    left: 8px;
+    font-family: 'Spectorgram';
+    color: blue;
+    border: none;
+    font-size: 15px;
+    background-color: white;
+    
+    
+    }    
+    p1 {
+    max-width: 300px;
+    font-family: 'Helvetica';
+    font-size: 14px;
+        }
+    
+     p2 {
+    max-width: 500px;
+    font-family: 'Helvetica';
+    font-size: 14px;
+        }
+        
+     p3 {
+    max-width: 300px;
+    font-family: 'Georgia';
+    font-size: 15px;
+        }
+    p4 {
+    max-width: 250px;
+    font-family: 'Baskerville';
+    font-size: 22px;
+        }
+    
+     p5 {
+    max-width: 200px;      
+    font-family: 'Georgia';
+    font-size: 16px;}
+        
+     p6 {
+    max-width: 200px;
+    font-family: 'Georgia';
+    font-size: 16px;    }
+        
+     p7 {
+    max-width: 200px;
+    font-family: 'Georgia';
+    font-size: 15px;    }
+    
+    p8 {
+    max-width: 400px;
+    font-family: 'Georgia';
+    font-size: 15px;    }
+        
+    p9 {
+    max-width: 500px;
+    font-family: 'Avenir';
+    font-size: 35px;    }
+        
+    p10 {
+    max-width: 300px;
+    font-family: 'Didot';
+    font-size: 20px;    }     
+    
+    p11 {
+    max-width: 300px;
+    font-family: 'Didot';
+    font-size: 20px;    }     
+    
+    p12 {
+    max-width: 300px;
+    font-family: 'Didot';
+    font-size: 20px;    }     
+        
+    #beeld1 {
+        margin-left:  200px;
+        margin-top: 100px;
+        
+    }
+       
+#container {
+  position: relative;
+    top: 70px;
+}
+        
+#container2 {
+  position: relative;
+   top:15%; 
+left:29%;
+}
+
+#container3 {
+  position: relative;
+left:72%;
+}
+        
+#container4 {
+  position: relative;
+  top:300px;
+    left: 30px;
+}
+        
+#container5 {
+  position: relative;
+left:500px;
+    top: 400px;
+}
+
+#container6 {
+  position: relative;
+left:750px;
+    top: 400px;
+}
+        
+#container7 {
+  position: relative;
+left:1000px;
+    top: 400px;
+}
+        
+#container8 {
+  position: relative;
+left:1250px;
+    top: 400px;
+}
+        
+#container9 {
+  position: relative;
+left:1700px;
+    
+}
+        
+#container10 {
+  position: relative;
+left:2300px;
+top: 200px;
+    
+}
+        
+#container11 {
+  position: relative;
+left:2700px;
+top: 200px;
+    
+}
+        
+#container12 {
+  position: relative;
+left:3100px;
+top: 200px;
+    
+}                   
+        
+.beeld1 {
+  position: absolute;
+    visibility: hidden;
+  left: 0;
+  top: 0;
+}
+.tekst1 {
+  z-index: 100;
+  position: absolute;
+    text-align:left;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  
+}
+
+.tekst1:hover .beeld1 {
+   visibility: visible;
+}
+        
+.beeld2 {
+  position: absolute;
+    visibility: hidden;
+     left: 0;
+  top: 0;
+}
+.tekst2 {
+  z-index: 100;
+  position: absolute;
+  -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;  
+}
+               
+ .tekst2:hover .beeld2 {
+   visibility: visible;
+}
+        
+.beeld3 {
+position: absolute;
+visibility: hidden;
+left: 0;
+top: 0;
+}
+.tekst3 {
+  z-index: 100;
+  position: absolute;
+  -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto; 
+}
+               
+ .tekst3:hover .beeld3 {
+   visibility: visible;
+}
+        
+.beeld4 {
+position: absolute;
+visibility: hidden;
+left: 0;
+top: 0;
+}
+.tekst4 {
+  z-index: 100;
+  position: absolute;
+  -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+               
+ .tekst4:hover .beeld4 {
+   visibility: visible;
+}
+        
+.beeld5 {
+position: absolute;
+visibility: hidden;
+left: 0;
+top: 0;
+}
+.tekst5 {
+  z-index: 100;
+  position: absolute;
+  -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;  
+}
+               
+ .tekst5:hover .beeld5 {
+   visibility: visible;
+}
+        
+.beeld6 {
+position: absolute;
+visibility: hidden;
+left: 0;
+top: 0;
+}
+.tekst6 {
+  z-index: 100;
+  position: absolute;
+  -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;  
+}
+               
+ .tekst6:hover .beeld6 {
+   visibility: visible;
+}
+        
+.beeld7 {
+position: absolute;
+visibility: hidden;
+left: 0;
+top: 0;
+}
+.tekst7 {
+  z-index: 100;
+  position: absolute;
+  -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;  
+}
+               
+ .tekst7:hover .beeld7 {
+   visibility: visible;
+}
+        
+.beeld8 {
+position: absolute;
+visibility: hidden;
+left: 0;
+top: 0;
+}
+.tekst8 {
+  z-index: 100;
+  position: absolute;
+  -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;  
+}
+               
+ .tekst8:hover .beeld8 {
+   visibility: visible;
+}
+        
+.beeld9 {
+position: absolute;
+visibility: hidden;
+left: 0;
+top: 0;
+}
+.tekst9 {
+  z-index: 100;
+  position: absolute;
+  -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;  
+}
+               
+ .tekst9:hover .beeld9 {
+   visibility: visible;
+}
+        
+.beeld10 {
+position: absolute;
+visibility: hidden;
+left: 0;
+top: 0;
+}
+.tekst10 {
+  z-index: 100;
+  position: absolute;
+  -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;  
+}
+               
+ .tekst10:hover .beeld10 {
+   visibility: visible;
+}
+        
+.beeld11 {
+position: absolute;
+visibility: hidden;
+left: 0;
+top: 0;
+}
+.tekst11 {
+  z-index: 100;
+  position: absolute;
+  -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;  
+}
+               
+ .tekst11:hover .beeld11 {
+   visibility: visible;
+}
+        
+.beeld12 {
+position: absolute;
+visibility: hidden;
+left: 0;
+top: 0;
+}
+.tekst12 {
+  z-index: 100;
+  position: absolute;
+  -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;  
+}
+               
+ .tekst12:hover .beeld12 {
+   visibility: visible;
+}  
+  
+ #pop{
+	height: 330px;
+	width: 350px;
+	position: fixed;
+	bottom: 20%;
+	right: 50%;
+	border:1px solid black;
+	padding: 10px;
+	background: white;
+	font-family: 'Spectogram';
+	font-size: 26px;
+    color: blue;
+	line-height: 30px;
+	text-align: left;
+ }   
+ 
+#close{
+	right: 2;
+	top: 2;
+	float: right;
+	
+ }
+ </style>         
+<script>
+
+setTimeout(function(){
+document.getElementById('pop').style.visibility = "visible";
+},3300);
+</script>
+        
+    </head>
+    
+    <body>
+        <input id="name" type="button" value="leslie steen"/>
+        <div id="pop" style="visibility:hidden;">
+	        <button id="close" onclick="document.getElementById('pop').style.display='none'">X</button>
+            <form  action="leslie_steen@hotmail.com" method="post" enctype="text/plain">
+            name:<br>
+            <input type="text" name="name" style="width: 320px;"><br>
+            e-mail:<br>
+            <input type="text" name="mail" style="width: 320px;"><br>
+            comment:<br>
+            <input type="text" name="comment" style="width: 320px; height: 120px;"><br><br>
+            <input type="submit" value="Send">
+           
+        </form>
+        </div>
+        
+        <div id="container">
+        <p1 class="tekst1">Voor deze opdracht moesten we een Encylopedia Vulgaris maken met minstens 100 zelfgekozen objecten. Ik koos ervoor materiaal te verzamelen, dat ik op mijn kot kon vinden. Ik fotografeerde de objecten of scande ze in en verdeelde ze in drie categorieën, namelijk: rechthoeken, cirkels en driehoeken.
+        <img class="beeld1" src="img-7199-2739x2074-40.jpg" width="300px";/></p>
+        </div>
+        
+        <div id="container2">
+        <p2 class="tekst2">Voor deze opdracht moesten we een Encylopedia Vulgaris maken met minstens 100 zelfgekozen objecten. Ik koos ervoor materiaal te verzamelen, dat ik op mijn kot kon vinden. Ik fotografeerde de objecten of scande ze in en verdeelde ze in drie categorieën, namelijk: rechthoeken, cirkels en driehoeken.      
+        <img class="beeld2" src="encyclopedia-1280x798-8-1280x798-78.jpg" width="500px";/></p>
+        </div>
+        
+        <div id="container4">
+        <p3 class="tekst4"> Dit zijn drie platenhoezen, die ik ontworpen heb. De docenten legden ons twee platen op, 'Songs of British Birds' en 'Oblique Strategies' (wat eigenlijk geen plaat is, maar een doosje vol kaartjes, gemaakt door Brian Eno, die je moet lezen wanneer je een creative block hebt), en we moesten een extra plaat kiezen. Voor deze opdracht moesten we ook een lettertype creëren, die aansloot bij het thema van je platen en je ontwerpen. In 'Oblique Strategies' vond ik een kaartje waarop stond: 'Go outside, shut the door' en op de plaat 'Songs of British Birds' staan letterlijk vogelzangen. Meteen werd de link gelegd naar de natuur en daarmee ook naar mijn derde plaat 'What a Wonderful World' van Louis Armstrong. Mijn lettertype is geïnspireerd op de geluidsgolven van de vogelgeluiden, die op de plaat 'Songs of British Birds' staan.   
+        <img class="beeld4" src="platenhoezen-2600x3260-26.jpg" width="300px";/></p>
+        </div>
+        
+        <div id="container3">
+        <p4 class="tekst3">Deze poster is gemaakt voor Woody Allen's film <br>'Bananas'. We werden gevraagd om één regisseur te kiezen uit een lijst van acht, en drie filmposters te ontwerpen voor drie van zijn/haar films. De posters moesten een identiteit zijn voor de regisseur. Ik heb de hoofden in 2 stukken geknipt en ze op de randen van de poster gezet, wat je een neurotisch gevoel moet geven. Deze keuze, omdat Woody Allen heel neurotisch is.
+        <img class="beeld3" src="bananas-9981x14455-35.jpg" width="250px";/></p>
+        </div>
+        
+        <div id="container5">
+        <p5 class="tekst5">Dit is een van de binnenhoezen, die ik gemaakt heb voor de platenhoezen opdracht. Ik printte enkele foto's uit van de natuur en vouwde ze op. Dit verwijst naar de continue verandering van de natuur.
+        <img class="beeld5" src="innersleeves-1801x1801-0.jpg" width="202px";/></p>
+        </div>
+        
+        <div id="container6">
+        <p6 class="tekst6">Dit is een van de binnenhoezen, die ik gemaakt heb voor de platenhoezen opdracht. Ik printte enkele foto's uit van de natuur en vouwde ze op. Dit verwijst naar de continue verandering van de natuur. 
+        <img class="beeld6" src="innersleeves3-1801x1801-14-1801x1801-11.jpg" width="202px";/></p>
+        </div>
+        
+        <div id="container7">
+        <p7 class="tekst7">Dit is een van de binnenhoezen, die ik gemaakt heb voor de platenhoezen opdracht. Ik printte enkele foto's uit van de natuur en vouwde ze op. Dit verwijst naar de continue verandering van de natuur.  
+        <img class="beeld7" src="innersleeves2-1801x1801-17-1801x1801-86.jpg" width="202px";/></p>
+        </div>
+        
+        <div id="container8">
+        <p8 class="tekst8">Dit is de achterkant van een van de drie platenhoezen.
+        <img class="beeld8" src="sleevesaf-3-3833x3848-88.jpg" width="400px";/></p>
+        </div>
+        
+        <div id="container9">
+        <p9 class="tekst9">'Summerwaves' is een jaarlijkse fuif, georganiseerd door de redders van Bredene. Dit is de tweede poster, die ik gemaakt heb voor hen. Ik moest de poster er tropisch laten uitzien, dus ik begon beelden uit te printen van stranden en exotische dieren en vouwde ze of knipte ze in stukken. Daarna voegde ik al die delen samen. Alle dieren op de poster zijn samengesteld uit verschillende dieren.
+        <img class="beeld9" src="summerwaves2016-1789x2516-5-1789x2516-75.jpg" width="500px";/></p>
+        </div>
+        
+        <div id="container10">
+        <p10 class="tekst10">Voor deze opdracht moesten we een sensatie opwekken, door enkel twee beelden te gebruiken.
+            <img class="beeld10" src="Sensaties1.jpg" width="300px";/></p>
+        </div>
+        
+        <div id="container11">
+        <p11 class="tekst11">Voor deze opdracht moesten we een sensatie opwekken, door enkel twee beelden te gebruiken.
+        <img class="beeld11" src="Sensaties2.jpg" width="300px";/></p>
+        </div>
+        
+        <div id="container12">
+        <p12 class="tekst12">Voor deze opdracht moesten we een sensatie opwekken, door enkel twee beelden te gebruiken.
+            <img class="beeld12" src="Sensaties3.jpg" width="300px";/></p>
+        </div>
+    </body>
+</html>
